@@ -1,0 +1,9 @@
+user www-data;
+worker_processes auto;
+http {
+    sendfile on;
+    tcp_nopush on;
+
+    ssl_protocols TLSv1.2 TLSv1.3;
+    gzip on;
+}
