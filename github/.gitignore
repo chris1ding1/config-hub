@@ -1,14 +1,9 @@
-*.swp
-.DS_Store
+
 /.fleet
 /.idea
 /.vscode
 *.sublime-project
 *.sublime-workspace
-
-.cache
-.temp
-.tmp
 
 Thumbs.db
 ehthumbs.db
@@ -17,3 +12,12 @@ Desktop.ini
 __pycache__/
 env/
 venv/
+
+*.swp
+*.swo
+*.log
+.env
+.cache
+.temp
+.tmp
+.DS_Store
